@@ -6,16 +6,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>BrainSwitcher</title>
         <meta name="description" content="Main page of BrainSwitcher">
+        <meta name="keywords" content="Brainswitcher">
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
         <link rel="shortcut icon" href="favicon_bs.ico" type="image/x-icon">
-        <script src="http://code.jquery.com/jquery-1.4.2.min.js" type="text/javascript"></script>
-        <script src="./scripts/script.js"></script>
+        <link rel="stylesheet" href="animate.min.css" type="text/css">
     </head>
     
     <body>
         <div class="welcome scrollto" id="welcome">
-           <div class="logo">BRAINSWITCHER</div>
+           <div class="logo wow bounceIn">BRAINSWITCHER</div>
            <div class="menu">
                <ul class="ul_menu">
                    <li><a href="index.html">HOME</a></li>
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="services scrollto" id="services">
-            <p class="services_p">SERVICES WE PROVIDE</p>
+            <p class="services_p wow bounceIn">SERVICES WE PROVIDE</p>
             <div class="line_services"></div>
             <div class="content_services">
                 <p>We are working with both individuals and businesses
@@ -271,18 +271,16 @@
             <p>GET IN TOUCH</p>
         </div>
         
-<!--
-        <script>
-jQuery(document).ready(function() {
-  jQuery("a.scrollto").click(function () {
-    elementClick = jQuery(this).attr("href")
-    destination = jQuery(elementClick).offset().top;
-    jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
-    return false;
-  });
-});
-</script>
+
+        <script src="//code.jquery.com/jquery-1.4.2.min.js" type="text/javascript"></script>
+        <!--<script src="//code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
 -->
+<!--       <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>-->
+        <script src="./scripts/script.js" type="text/javascript"></script>
+        <script src="wow.min.js" type="text/javascript"></script>
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>
 <!--
