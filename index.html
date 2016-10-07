@@ -10,13 +10,13 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
         <link rel="shortcut icon" href="favicon_bs.ico" type="image/x-icon">
-        <link rel="stylesheet" href="animate.min.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="animate.min.css">
     </head>
     
     <body>
         <div class="welcome scrollto" id="welcome">
-           <div class="logo wow bounceIn">BRAINSWITCHER</div>
-           <div class="menu">
+           <div class="logo wow bounceInRight">BRAINSWITCHER</div>
+           <div class="menu wow bounceInDown">
                <ul class="ul_menu">
                    <li><a href="index.html">HOME</a></li>
                    <li class="li_welcome_about">
@@ -37,21 +37,21 @@
                    <li><a href="#">CONTACT</a></li>
                </ul>
            </div>
-            <div class="hi">
+            <div class="hi wow bounceInLeft">
                 <p>Hi there! We are the new kids on the block<br> and we build awesome websites and mobile apps.</p>
-                <div class="work"><a href="#">WORK WITH US!</a></div>
+                <div class="work wow bounceInUp"><a href="#">WORK WITH US!</a></div>
             </div>
         </div>
         <div class="services scrollto" id="services">
-            <p class="services_p wow bounceIn">SERVICES WE PROVIDE</p>
-            <div class="line_services"></div>
-            <div class="content_services">
+            <p class="services_p wow fadeInDown">SERVICES WE PROVIDE</p>
+            <div class="line_services wow fadeInUp"></div>
+            <div class="content_services wow zoomInUp">
                 <p>We are working with both individuals and businesses
                 from all over the globe to create awesome websites
                 and applications.</p>
             </div>
             <div class="service_images">
-              <div class="branding">
+              <div class="branding wow wobble">
                   <div class="branding_image">
                       <img src="./images/flag.png" alt="Branding">
                   </div>
@@ -61,7 +61,7 @@
                       </p>
                   </div>
               </div>
-              <div class="design">
+              <div class="design wow wobble">
                   <div class="design_image">
                       <img src="./images/pencil.png" alt="Design">
                   </div>
@@ -70,7 +70,7 @@
                       <p>Sed ut perspiciatis unde<br> omnis iste natus error sit<br> voluptatem</p>
                   </div>
               </div>  
-              <div class="development">
+              <div class="development wow wobble">
                   <div class="development_image">
                       <img src="./images/develop.png" alt="Development">
                   </div>
@@ -81,7 +81,7 @@
                       </p>
                   </div>
               </div>
-               <div class="rocket">
+               <div class="rocket wow wobble">
                    <div class="rocket_image">
                        <img src="./images/rocket.png" alt="Rocket Science">
                    </div>
@@ -94,17 +94,17 @@
             </div> 
         </div>
         <div class="team scrollto" id="team">
-            <p>MEET OUR BEAUTIFUL TEAM</p>
+            <p class="wow zoomInUp" data-wow-delay="0.2s">MEET OUR BEAUTIFUL TEAM</p>
             <div class="line_team"></div>
-            <div class="content_team">
+            <div class="content_team wow zoomInUp" data-wow-offset="50" data-wow-delay="0.4s">
                 <p>We are a small team of designers and developers, who help brands with big ideas.</p>
             </div>
             <div class="team_images">
                 <div class="photo1">
-                    <div class="photo1_image">
+                    <div class="photo1_image wow zoomInLeft" data-wow-delay="0.5s">
                         <img src="./images/vnsn.jpg" alt="Sergey Nosanov">
                     </div>
-                    <div class="photo1_text">
+                    <div class="photo1_text wow rotateInDownLeft">
                         <h3>SERGEY NOSANOV</h3>
                         <h4>IT-Engineer</h4>
                         <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit,<br> sed diam nonummy nibh<br> euismod tincidunt ut laoreet<br> dolore magna.</p>
@@ -119,10 +119,10 @@
                     </div>
                 </div>
                 <div class="photo2">
-                    <div class="photo2_image">
+                    <div class="photo2_image wow zoomInLeft" data-wow-delay="0.6s">
                         <img src="./images/cat2.jpg" alt="Creative Director">
                     </div>
-                    <div class="photo2_text">
+                    <div class="photo2_text wow rotateInDownLeft">
                         <h3>TIM</h3>
                         <h4>Creative Director</h4>
                         <p>Duis aute irure dolor in in<br>
@@ -138,10 +138,10 @@
                     </div>
                 </div>
                 <div class="photo3">
-                    <div class="photo3_image">
+                    <div class="photo3_image wow zoomInRight" data-wow-delay="0.7s">
                         <img src="./images/dog.jpg" alt="Lead Designer">
                     </div>
-                    <div class="photo3_text">
+                    <div class="photo3_text wow rotateInUpRight">
                         <h3>MIKE</h3>
                         <h4>Lead Designer</h4>
                         <p>Nemo enim ipsam voluptas<br> sit aspernatur aut odit aut<br> fugit, sed quia consequuntur<br> magni dolores eos qui ratione<br> voluptatem nesciunt.</p>
@@ -156,10 +156,10 @@
                     </div>
                 </div>
                 <div class="photo4">
-                    <div class="photo4_image">
+                    <div class="photo4_image wow zoomInRight" data-wow-delay="0.8s">
                         <img src="./images/owl.jpg" alt="CEO">
                     </div>
-                    <div class="photo4_text">
+                    <div class="photo4_text wow rotateInUpRight">
                         <h3>ROB</h3>
                         <h4>CEO</h4>
                         <p>Sed up perspiciatis unde<br> omnis iste natus error sit<br> voluptatem accusantium<br> doloremque landatium, totam rem aperiam.</p>
@@ -176,13 +176,13 @@
             </div>
         </div>
         <div class="skills scrollto" id="skills">
-            <p>WE GOT SKILLS!</p>
-            <div class="line_skills"></div>
-            <div class="content_skills">
+            <p class="wow zoomIn">WE GOT SKILLS!</p>
+            <div class="line_skills wow zoomInDown"></div>
+            <div class="content_skills wow zoomInUp">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div class="skills_images">
-                <div class="image1">
+                <div class="image1 wow bounceInUp" data-wow-delay="0.3s">
                     <div class="image_90">
                         <img src="./images/image_90.png" alt="90%">
                     </div>
@@ -190,7 +190,7 @@
                         <h2>WEB DESIGN</h2>
                     </div>
                 </div>
-                <div class="image2">
+                <div class="image2 wow bounceInUp" data-wow-delay="0.4s">
                     <div class="image_75">
                         <img src="./images/image_75.png" alt="75%">
                     </div>
@@ -198,7 +198,7 @@
                         <h2>HTML / CSS</h2>
                     </div>
                 </div>
-                <div class="image3">
+                <div class="image3 wow bounceInUp" data-wow-delay="0.5s">
                     <div class="image_70">
                         <img src="./images/image_70.png" alt="70%">
                     </div>
@@ -206,7 +206,7 @@
                         <h2>GRAPHIC DESIGN</h2>
                     </div>
                 </div>
-                <div class="image4">
+                <div class="image4 wow bounceInUp" data-wow-delay="0.6s">
                     <div class="image_85">
                         <img src="./images/image_85.png" alt="85%">
                     </div>
@@ -217,12 +217,12 @@
             </div>
         </div>
         <div class="portfolio scrollto" id="portfolio">
-            <p>OUR PORTFOLIO</p>
+            <p class="wow bounceInUp">OUR PORTFOLIO</p>
             <div class="line_portfolio"></div>
-            <div class="content_portfolio">
+            <div class="content_portfolio wow bounceInDown">
                 <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br> consectetur, adipisci velit, sed quia non numquam</p>
             </div>
-            <div class="menu_portfolio">
+            <div class="menu_portfolio wow swing">
                 <ul class="ul_portfolio">
                     <li><a href="#">ALL</a></li>
                     <li><a href="#">WEB</a></li>
@@ -231,32 +231,32 @@
                 </ul>
             </div>
             <div class="notebook_pic">
-               <div class="notebook1">
+               <div class="notebook1 wow bounceInRight" data-wow-delay="0.3s">
                   <a href="#">
                       <img src="./images/notebook1.png" alt="n1">
                       <p>ISOMETRIC PERSPECTIVE MOCK-UP</p>
                   </a>
                </div>
-               <div class="notebook2">
+               <div class="notebook2 wow bounceInLeft" data-wow-delay="0.4s">
                   <a href="#">
                       <img src="./images/notebook2.png" alt="n2">
                       <p>TIME ZONE APP UI</p>
                   </a>  
                </div>
-               <div class="notebook3">
+               <div class="notebook3 wow bounceInLeft" data-wow-delay="0.5s">
                   <a href="#">
                       <img src="./images/notebook3.png" alt="n3">
                       <p>VIRO MEDIA PLAYERS UI</p>
                   </a>              
                </div>
-               <div class="notebook4">
+               <div class="notebook4 wow bounceInRight" data-wow-delay="0.6s">
                   <a href="#">
                       <img src="./images/notebook4.png" alt="n4">
                       <p>BLOG / MAGAZINE FLAT UI KIT</p>
                   </a>   
                </div>
             </div>
-            <div class="portfolio_button">
+            <div class="portfolio_button wow bounceInUp" data-wow-delay="0.7s">
                 <a href="#">LOAD MORE PROJECTS</a>
             </div>
         </div>
@@ -271,13 +271,12 @@
             <p>GET IN TOUCH</p>
         </div>
         
-
         <script src="//code.jquery.com/jquery-1.4.2.min.js" type="text/javascript"></script>
-        <!--<script src="//code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
--->
+<!--        <script src="//code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>-->
+
 <!--       <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>-->
         <script src="./scripts/script.js" type="text/javascript"></script>
-        <script src="wow.min.js" type="text/javascript"></script>
+        <script src="./scripts/wow.min.js"></script>
         <script>
             new WOW().init();
         </script>
