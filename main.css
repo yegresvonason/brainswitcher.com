@@ -754,7 +754,9 @@ body {
     max-width: 200px;
     text-align: center;
     margin: 20px auto;
-    font-size: 18px;
+    font-size: 19px;
+    font-weight: bold;
+    f
 }
 
 .testimonials_photo1{
@@ -884,6 +886,33 @@ body {
     background-color: #3c5499;
     color: #ffffff;
     margin-top: -20px;
+    padding-top: 120px;
+}
+
+.touch > h3{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 29.907px;
+    text-align: center;
+}
+
+.line_touch{
+    width: 87px;
+    height: 4px;
+    background-color: #313d6f;
+    margin: 0px auto 30px auto;
+}
+
+.touch > p{
+    text-align: center;
+    font-size: 22px;
+/*    font-weight: bold;*/
+}
+
+.form{
+    max-width: 866px;
+    margin: 0 auto;
 }
 
 /*h1, h2, h3, h4, h5, h6 {
