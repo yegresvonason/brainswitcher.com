@@ -43,10 +43,11 @@ body {
 }
 
 .logo:hover{
-    box-shadow: 0px 0px 18px 4px #643a79;
-    background-color: #643a79;
+/*    box-shadow: 0px 0px 18px 4px #643a79;*/
+/*    background-color: #643a79;*/
     font-weight: bold;
     border-radius: 8px;
+    font-size: 48px;
 }
 
 .menu {
@@ -127,7 +128,7 @@ body {
     font-size: 35px;
     max-width: 910px;
     text-align: center;
-    margin: 145px auto 0 auto;
+    margin: 185px auto 0 auto;
     clear: both;/*why?*/
     font-weight: bold;
 }
@@ -754,6 +755,127 @@ body {
     text-align: center;
     margin: 20px auto;
     font-size: 18px;
+}
+
+.testimonials_photo1{
+    margin: 0 auto 20px auto;
+    max-width: 1200px;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+.first_object{
+    max-width: 580px;
+    display: inline-block;
+/*    float: left;*/
+    margin-right: 130px;
+}
+
+.first_object_photo{
+/*    max-width: 230px;*/
+    display: inline-block;
+}
+
+.first_object p:nth-child(2){
+    display: inline-block;
+/*    font-style: italic;*/
+}
+
+.testimonials_photo1 img{
+    border-radius: 600px;
+    border: 3px solid #878787;
+    box-shadow: 0 0 7px #878787;
+    max-width: 200px;
+    max-height: 200px;
+    transition: all 0.3s ease;
+}
+
+
+/*.testimonials_photo1 img:hover{
+    border-radius: 600px;
+    border: 3px solid #878787;
+    box-shadow: 0 0 7px #878787;
+    max-width: 300px;
+    max-height: 300px;
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+}*/
+
+
+.second_object{
+    max-width: 580px;
+    display: inline-block;
+/*    float: right;*/
+}
+
+.second_object_photo{
+/*    max-width: 230px;*/
+    display: inline-block;
+}
+
+.second_object p:nth-child(2){
+    display: inline-block;
+/*    font-style: italic;*/
+}
+
+.testimonials_photo2{
+    margin: 60px auto 0 auto;
+    max-width: 1200px;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+.third_object{
+    max-width: 610px;
+    display: inline-block;
+/*    float: left;*/
+    margin-right: 130px;
+}
+
+.third_object_photo{
+/*    max-width: 230px;*/
+    display: inline-block;
+}
+
+.third_object p:nth-child(2){
+    display: inline-block;
+/*    font-style: italic;*/
+}
+
+.testimonials_photo2 img{
+    border-radius: 600px;
+    border: 3px solid #878787;
+    box-shadow: 0 0 7px #878787;
+    max-width: 200px;
+    max-height: 200px;
+    transition: all 0.3s ease;
+}
+
+/*
+.testimonials_photo2 img:hover{
+    border-radius: 600px;
+    border: 3px solid #878787;
+    box-shadow: 0 0 7px #878787;
+    max-width: 300px;
+    max-height: 300px;
+}
+*/
+
+.fourth_object{
+    max-width: 6000px;
+    display: inline-block;
+/*    float: right;*/
+}
+
+.fourth_object_photo{
+/*    max-width: 230px;*/
+    display: inline-block;
+}
+
+.fourth_object p:nth-child(2){
+    display: inline-block;
+/*    font-style: italic;*/
 }
 
 /*end block*/
