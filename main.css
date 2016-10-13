@@ -900,7 +900,7 @@ body {
 .line_touch{
     width: 87px;
     height: 4px;
-    background-color: #313d6f;
+    background-color: #273a71;
     margin: 0px auto 30px auto;
 }
 
@@ -913,6 +913,90 @@ body {
 .form{
     max-width: 866px;
     margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#name_field {
+    width: 405px;
+    height: 60px;
+    background-color: #273a71;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 24px;
+    color: #ffffff;
+    padding-left: 10px;
+    margin: 5px 25px 5px 0px;
+}
+
+#email_field{
+    width: 405px;
+    height: 60px;
+    background-color: #273a71;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 24px;
+    color: #ffffff;
+    padding-left: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+#area_message{
+/*    display: inline-block;*/
+    min-width: 852px;
+    height: 205px;
+    margin-top: 20px;  
+    background-color: #273a71;
+    border-radius: 6px;
+    border-color: #273a71;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#send_button{
+    width: 292px;
+    height: 66px;
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #30bae7;
+    transition: 0.3s all ease;
+    margin: 20px 0px;
+}
+
+#send_button:hover{
+    border-bottom: 5px solid #299ec5;
+}
+
+.footer{
+    text-align: center;
+    background-color: #344b8e;
+    height: 112px;
+    margin: 0;
+}
+
+.footer ul{
+    
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+    line-height: 112px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    transition: 0.3s all ease;
+}
+
+.footer ul li a:hover{
+    color: #30bae7;
 }
 
 /*h1, h2, h3, h4, h5, h6 {
