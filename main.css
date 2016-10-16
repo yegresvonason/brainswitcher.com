@@ -776,6 +776,17 @@ body {
 .first_object_photo{
 /*    max-width: 230px;*/
     display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.first_object_photo:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 .first_object p:nth-child(2){
@@ -785,7 +796,7 @@ body {
 
 .testimonials_photo1 img{
     border-radius: 600px;
-    border: 3px solid #878787;
+    border: 3px solid #facd96;
     box-shadow: 0 0 7px #878787;
     max-width: 200px;
     max-height: 200px;
@@ -814,6 +825,17 @@ body {
 .second_object_photo{
 /*    max-width: 230px;*/
     display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.second_object_photo:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 .second_object p:nth-child(2){
@@ -838,6 +860,17 @@ body {
 .third_object_photo{
 /*    max-width: 230px;*/
     display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.third_object_photo:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 .third_object p:nth-child(2){
@@ -847,7 +880,7 @@ body {
 
 .testimonials_photo2 img{
     border-radius: 600px;
-    border: 3px solid #878787;
+    border: 3px solid #facd96;
     box-shadow: 0 0 7px #878787;
     max-width: 200px;
     max-height: 200px;
@@ -873,6 +906,17 @@ body {
 .fourth_object_photo{
 /*    max-width: 230px;*/
     display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.fourth_object_photo:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 .fourth_object p:nth-child(2){
@@ -880,9 +924,18 @@ body {
 /*    font-style: italic;*/
 }
 
+.clients_person{
+    color: #fcf6f8;
+}
+
+.clients_position{
+    color: #facd96;
+}
+
 /*end block*/
 .touch {
-    min-height: 932px;
+/*    min-height: 932px;*/
+    max-height: 900px;
     background-color: #3c5499;
     color: #ffffff;
     margin-top: -20px;
@@ -975,10 +1028,6 @@ body {
     background-color: #344b8e;
     height: 112px;
     margin: 0;
-}
-
-.footer ul{
-    
 }
 
 .footer ul li{
